@@ -1,0 +1,93 @@
+html, body {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100vh !important;
+    width: 100% !important;
+    font-family: 'Aeonik' !important;
+}
+body {
+    min-height: 100vh;
+    font-family: calibri;
+}
+input {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: black !important;
+    color: black !important;
+}
+.my-w {
+    width: 50% !important;
+}
+.my-p { 
+    padding: 6% 20px !important;
+}
+.my-p-card { 
+    padding: 30px 40px !important;
+}
+.card-info {
+    display: flex;
+    justify-content: space-between;
+}
+.bg-graylight {
+    background-color: rgba(238, 237, 237, 0.911) !important;
+}
+.bg-gray {
+    background-color: #f9f9f9 !important;
+}
+.bg-graydark {
+    background-color: #272937 !important;
+}
+.text-letra {
+    color: #272937 !important;
+}
+.text-preco {
+    color: #0264dc !important;
+}
+.pointer {
+    cursor: pointer;
+}
+.btn-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px !important;
+    width: 90px !important;
+    border-radius: 20px !important;
+}
+.tag {
+    background-color: #0264dc !important;
+    padding: 3px 5px !important;
+    border-radius: 15px !important;
+    max-height: 35px !important;
+    font-size: .888rem !important;
+}
+#notify-copy {
+    position: absolute;
+    z-index: 10000000000;
+    padding: 10px;
+    font-size: .988rem;
+}
+i {
+    font-size: small;
+    right: 20px !important;
+    bottom: 12px !important;
+}
+
+@media screen and (max-width: 1180px) {
+    .my-w { width: 80% !important;}
+    .my-p {
+        padding: 10px !important;
+    }
+    /* .card-info {
+        margin-top: 8px !important;
+    } */
+}
+@media screen and (max-width: 780px) {
+    .my-w { width: 100% !important;}
+    .my-p { 
+        padding: 50% 20px !important;
+    }
+    #notify-copy {
+        font-size: .828rem;
+    }
+}
